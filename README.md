@@ -9,5 +9,6 @@ Tempalte from Iron Summit Media Strategies, see in [github](https://github.com/I
 ## License
 
 Copyright 2015-2016 Si Yuan Wang
+
 Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-clean-blog/blob/gh-pages/LICENSE) license.
 
