@@ -25,6 +25,7 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
+
 a {
   color: #404040;
 }
@@ -63,6 +64,21 @@ hr.small {
   font-weight: 800;
   letter-spacing: 1px;
 }
+
+/*.fa-3x*/
+.main-link-icon {
+	font-size: 3em;
+}
+
+@media only screen and (max-width: 768px) {
+	/*.fa-lg*/
+	.main-link-icon {
+		font-size: 1.33333333em;
+		line-height: 0.75em;
+		vertical-align: -15%;
+	}
+}
+
 @media only screen and (min-width: 768px) {
   .navbar-custom {
     background: transparent;
