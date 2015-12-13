@@ -73,9 +73,7 @@ hr.small {
 @media only screen and (max-width: 768px) {
 	/*.fa-lg*/
 	.main-link-icon {
-		font-size: 1.33333333em;
-		line-height: 0.75em;
-		vertical-align: -15%;
+		font-size: 2em;
 	}
 }
 
