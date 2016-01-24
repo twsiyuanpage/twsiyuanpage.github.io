@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" itemscope="itemscope" itemtype="http://schema.org/WebPage">
 <head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Siyuan Wang's HomePage">
+    <meta name="author" content="Siyuan Wang">
 
-    <title>Si-Yuan Wang</title>
+    <title itemprop="name">Siyuan Wang's HomePage</title>
 	<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png"/>
 	<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png"/>
 	<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png"/>
@@ -49,7 +48,7 @@
 
 </head>
 
-<body>
+<body itemprop="mainEntity" itemscope="itemscope" itemtype="http://schema.org/Person">
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
@@ -58,14 +57,20 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="site-heading">
+						<div class="side-cover" itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
+							<img src="img/profile.jpg"/>
+							<meta content="http://twsiyuan.com/img/profile.jpg" itemprop="url"/>
+							<meta content="http://twsiyuan.com/img/profile.jpg" itemprop="contentUrl"/>
+							<meta content="145" itemprop="width"/>
+							<meta content="145" itemprop="height"/>
+						</div>
                         <h1>Si Yuan Wang</h1>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-
-    <!-- Main Content -->
+	<!-- Main Content -->
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -73,14 +78,17 @@
                 <div class="post-preview">
                     <h2 class="post-title">About</h2>
 					<a name="About"></a>
-					<p>I'm Si-Yuan Wang, living in Taipei, Formosa (Taiwan). I'm a software developer. See my <a href="http://cv.twsiyuan.com">resume</a> for more information.</p>
+					<link href="http://twsiyuan.com" itemprop="mainEntityOfPage" />
+					<meta content="Si Yuan Wang" itemprop="name"/>
+					<meta content="王思元" itemprop="name" lang="zh-Hant"/>
+					<meta content="王" itemprop="givenName" lang="zh-Hant"/>
+					<meta content="思元" itemprop="familyName" lang="zh-Hant"/>
+					<p>I'm <span itemprop="givenName">Si Yuan</span> <span itemprop="familyName">Wang</span>, living in <span itemprop="address">Taipei, Formosa (Taiwan)</span>. I'm a <span itemprop="jobTitle">software developer</span>. See my <a href="http://cv.twsiyuan.com">resume</a> for more information.</p>
                 </div>
             </div>
         </div>
     </div>
-
     <hr>
-
     <!-- Footer -->
     <footer>
         <div class="container">

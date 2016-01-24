@@ -65,16 +65,9 @@ hr.small {
   letter-spacing: 1px;
 }
 
-/*.fa-3x*/
+/*.fa-lg*/
 .main-link-icon {
-	font-size: 3em;
-}
-
-@media only screen and (max-width: 768px) {
-	/*.fa-lg*/
-	.main-link-icon {
-		font-size: 2em;
-	}
+	font-size: 2em;
 }
 
 @media only screen and (min-width: 768px) {
@@ -159,14 +152,14 @@ hr.small {
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
-  padding: 100px 0 50px;
+  padding: 80px 0 50px;
   color: #fff;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    padding: 150px 0;
+    padding: 80px 0;
   }
 }
 .intro-header .site-heading,
@@ -186,6 +179,14 @@ hr.small {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
+}
+.site-heading .side-cover {
+	overflow: hidden;
+	border-radius: 50%;
+	display: block;
+    width: 140px;
+    height: 140px;
+	margin: 0 auto;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
