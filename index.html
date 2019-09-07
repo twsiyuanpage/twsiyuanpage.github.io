@@ -201,7 +201,7 @@
               <ul>
                 <li>Introduced and implemented near 90% functionality of gRPC service skeleton for the two new microservices using <mark>golang</mark>, and created the deployment pipeline in <mark>Jenkins</mark> which runs lint and vet tools to analyse the source code, runs unit test to check functionality, builds the service docker-images and deploys to <mark>Kubernetes</mark> platform.</li>
                 <li>Implemented a new auth token endpoints using <mark>golang</mark> which generates new tokens or refreshes the existing client’s token each requests using <mark>golang</mark>, the endpoints handled 800,000 requests per hour.</li>
-                <li>Fixed a user registration bug which existed in the <mark>golang<mark> system for four months and cleaned up 9,171,726 invalid user records created due to the bug in the database without affecting to the runtime service.</li>
+                <li>Fixed a user registration bug which existed in the <mark>golang</mark> system for four months and cleaned up 9,171,726 invalid user records created due to the bug in the database without affecting to the runtime service.</li>
                 <li>Upgraded two outdated <mark>golang</mark> projects from go1.7.6 to the newer one go1.12.7, and fixed the bug that caused near 10,000 false timeout alerts per day due to golang version changed.</li>
                 <li>Optimised the <mark>docker</mark> file of build-tools, reducing the docker image rebuilding time from 19 mins to 2 mins for each builds in <mark>Jenkins</mark> pipeline.</li>
                 <li>Introduced docker-test package into five <mark>golang</mark> projects, simplified the test process without setup containers environment manually before testing.</li>
